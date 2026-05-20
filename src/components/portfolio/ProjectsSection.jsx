@@ -8,14 +8,14 @@ const projects = [
   {
     title: 'E-Commerce Microservices',
     description: 'A full-featured e-commerce backend built with Spring Boot microservices architecture. Includes product catalog, user authentication, order management, and payment processing with Stripe integration.',
-    tags: ['Spring Boot', 'Microservices', 'Docker', 'MySQL', 'RabbitMQ', 'Redis'],
-    github: 'https://github.com/Chetan95263/ecommerce-microservices',
+    tags: ['Spring Boot', 'Microservices', 'Docker', 'PostgreSQL' , 'DTO'],
+    github: 'https://github.com/Chetan95263/ecom-application',
     gradient: 'from-primary/10 to-accent/10',
   },
   {
     title: 'MCQ Platform API',
     description: 'An advanced, scalable MCQ (Multiple Choice Questions) platform API built with Spring Boot. Features JWT-based authentication & authorization, Spring Security for endpoint protection, DAO pattern for clean data access, and a fully relational MySQL schema. Supports role-based access (Admin/Student), question & category management, timed quiz sessions, result tracking, and comprehensive JUnit test coverage for all service and controller layers.',
-    tags: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'JUnit', 'DAO', 'REST API'],
+    tags: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'JUnit', 'DAO', 'REST API' , 'JPA'],
     github: 'https://github.com/Chetan95263/mcq-platform-api',
     gradient: 'from-accent/10 to-primary/10',
   },
